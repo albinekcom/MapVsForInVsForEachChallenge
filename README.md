@@ -1,2 +1,3 @@
-# MapVsForLoopChallenge
-Comparing performance of map method vs for loop
+# Map vs For Loop Challenge
+
+Comparing performance of map method vs for loop.
