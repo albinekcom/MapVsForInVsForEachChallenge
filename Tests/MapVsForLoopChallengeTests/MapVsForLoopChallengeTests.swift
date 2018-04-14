@@ -2,19 +2,37 @@ import XCTest
 
 final class MapVsForLoopChallengeTests: XCTestCase {
 
-    let attempts = 10_000_000
+    let arrayLength = 10_000_000
+
+    private var numbers: [Int]!
+
+    // MARK: - Setting
+
+    override func setUp() {
+        super.setUp()
+
+        numbers = [Int]()
+
+        for index in 1...arrayLength {
+            numbers.append(index)
+        }
+    }
+
+    // MARK: - Tests
 
     func testForLoop() {
         measure {
-            XCTAssertTrue(true) // TODO: Insert code here
+            for _ in numbers { continue }
         }
     }
 
     func testMap() {
         measure {
-            XCTAssertTrue(true) // TODO: Insert code here
+            _ = numbers.map { _ in }
         }
     }
+
+    // MARK: - All Tests
 
     static var allTests = [
         ("testForLoop", testForLoop),
