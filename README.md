@@ -14,4 +14,4 @@ Run the command below and compare the results.
 $ swift test
 ```
 
-> Modify `attempts` property in `MapVsForLoopChallengeTests` class to check performance for more / fewer runs.
+> Modify `arrayLength` property in `MapVsForLoopChallengeTests` class to check performance for longer / shorter array.
