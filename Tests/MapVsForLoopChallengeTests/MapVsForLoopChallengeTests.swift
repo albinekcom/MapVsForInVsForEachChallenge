@@ -22,7 +22,13 @@ final class MapVsForLoopChallengeTests: XCTestCase {
 
     func testForLoop() {
         measure {
-            for _ in numbers { continue }
+            for _ in numbers { }
+        }
+    }
+
+    func testForEach() {
+        measure {
+            numbers.forEach { _ in }
         }
     }
 
@@ -36,6 +42,7 @@ final class MapVsForLoopChallengeTests: XCTestCase {
 
     static var allTests = [
         ("testForLoop", testForLoop),
+        ("testForEach", testForEach),
         ("testMap", testMap)
     ]
 
