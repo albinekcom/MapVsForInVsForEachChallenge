@@ -4,9 +4,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "MapVsForLoopChallenge",
-    
+    name: "MapVsForInVsForEachChallenge",
+
     targets: [
-        .testTarget(name: "MapVsForLoopChallengeTests")
+        .testTarget(name: "MapVsForInVsForEachChallengeTests")
     ]
 )

@@ -1,6 +1,6 @@
 import XCTest
 
-final class MapVsForLoopChallengeTests: XCTestCase {
+final class MapVsForInVsForEachChallengeTests: XCTestCase {
 
     let arrayLength = 10_000_000
 
@@ -20,7 +20,7 @@ final class MapVsForLoopChallengeTests: XCTestCase {
 
     // MARK: - Tests
 
-    func testForLoop() {
+    func testForIn() {
         measure {
             for _ in numbers { }
         }
@@ -41,7 +41,7 @@ final class MapVsForLoopChallengeTests: XCTestCase {
     // MARK: - All Tests
 
     static var allTests = [
-        ("testForLoop", testForLoop),
+        ("testForIn", testForIn),
         ("testForEach", testForEach),
         ("testMap", testMap)
     ]
