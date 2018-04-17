@@ -1,9 +1,9 @@
-# Map vs For Loop Challenge
+# Map vs for in vs forEach Challenge
 
 ![Swift 4.1](https://img.shields.io/badge/Swift-4.1-orange.svg)
 [![Build Status](https://travis-ci.org/albinekcom/MapVsForLoopChallenge.svg?branch=master)](https://travis-ci.org/albinekcom/MapVsForLoopChallenge)
 
-`map()` or `for in loop` or `forEach()`? Comparing performance of map method vs for loop.
+`map()` or `for in` or `forEach()`? Comparing performance of map method vs for in vs forEach method.
 
 
 ## Usage
