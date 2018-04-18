@@ -1,6 +1,6 @@
 import XCTest
-@testable import MapVsForLoopChallengeTests
+@testable import MapVsForInVsForEachChallengeTests
 
 XCTMain([
-    testCase(MapVsForLoopChallengeTests.allTests),
+    testCase(MapVsForInVsForEachChallengeTests.allTests),
 ])
