@@ -36,4 +36,4 @@ $ swift test
 
 ## Conclusions
 
-`map()` is the fastest
+`map()` is the fastest, `forEach()` is the slowest.
