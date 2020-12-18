@@ -1,7 +1,7 @@
 # Map vs for in vs forEach Challenge
 
-![Swift 4.2.1](https://img.shields.io/badge/Swift-4.2.1-orange.svg)
-[![Build Status](https://travis-ci.org/albinekcom/MapVsForInVsForEachChallenge.svg?branch=master)](https://travis-ci.org/albinekcom/MapVsForInVsForEachChallenge)
+![Swift 5.3](https://img.shields.io/badge/Swift-5.3-orange.svg)
+[![Build Status](https://travis-ci.com/albinekcom/MapVsForInVsForEachChallenge.svg?branch=master)](https://travis-ci.com/albinekcom/MapVsForInVsForEachChallenge)
 
 `map()` or `for in` or `forEach()`? Comparing performance of map method vs for in vs forEach method.
 
